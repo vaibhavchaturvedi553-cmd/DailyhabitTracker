@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Daily Habit Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="notebook">
+
+        <!-- Page Heading -->
+        <header>
+            <p class="date-label">MY LITTLE DAILY DIARY ✿</p>
+
+            <h1>Daily Habit Tracker</h1>
+
+            <p class="welcome">Hey! Ready for today? ♡</p>
+
+            <p id="date"></p>
+        </header>
+
+
+        <!-- Daily Progress -->
+        <section class="progress-section">
+
+            <h2>Today's Progress</h2>
+
+            <h3 id="percentage">0%</h3>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+            <p id="progressText">
+                Let's make today a good day!
+            </p>
+
+        </section>
+
+
+        <!-- Add New Habit -->
+        <section class="add-section">
+
+            <h2> Things I want to do</h2>
+
+            <div class="input-area">
+
+                <input
+                    type="text"
+                    id="habitInput"
+                    placeholder="Write a new habit..."
+                >
+
+                <button id="addButton">Add +</button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Habit Checklist -->
+        <section class="habit-section">
+
+            <h2>My Little Daily Goals ♡</h2>
+
+            <div id="habitList"></div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>Remember, little progress is still progress! 🌷</p>
+            <p class="footer-note">Made by me, with love.</p>
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
